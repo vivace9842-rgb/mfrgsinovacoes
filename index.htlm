@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFRGS INOVAÇÕES - Gestão de Tráfego</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #8A9A5B; } /* Verde Sálvia */
+        .gold-text { color: #D4AF37; } /* Ouro */
+        .glass { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); }
+        .btn-gold { background: linear-gradient(45deg, #D4AF37, #F9E076); color: #2D3419; transition: transform 0.3s; }
+        .btn-gold:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body class="text-white">
+
+    <header class="p-4 flex justify-between items-center text-xs opacity-70">
+        <span>MFRGS INOVAÇÕES - Sentinela v1.0</span>
+        <div class="flex items-center gap-2">
+            <span id="battery-status">Bateria: 85%</span> </div>
+    </header>
+
+    <section class="px-6 py-12 text-center">
+        <h1 class="text-3xl font-bold leading-tight mb-4">Sua empresa não precisa de mais <span class="gold-text">cliques</span>.</h1>
+        <p class="text-lg mb-8 opacity-90">Ela precisa de clientes que valorizem o seu propósito.</p>
+        
+        <div class="glass p-6 rounded-2xl mb-8">
+            <p class="text-sm italic mb-4">"O algoritmo pode ser frio, mas a nossa estratégia é humana."</p>
+            <a href="https://wa.me/SEUNUMERO" class="btn-gold block w-full py-4 rounded-xl font-bold text-lg shadow-lg">Quero uma Análise do Meu Negócio</a>
+            <p class="text-[10px] mt-3 opacity-70">✓ Análise gratuita • ✓ Resposta em 24h</p>
+        </div>
+    </section>
+
+    <section class="bg-white/5 py-12 px-6 rounded-t-[3rem]">
+        <h2 class="text-2xl font-bold text-center gold-text mb-8">Metodologia Sentinela</h2>
+        <div class="space-y-6">
+            <div class="flex items-start gap-4">
+                <div class="p-3 glass rounded-lg gold-text">📊</div>
+                <div>
+                    <h3 class="font-bold">Monitoramento Constante</h3>
+                    <p class="text-sm opacity-80">Análise 24/7 de cada métrica que importa para o seu bolso.</p>
+                </div>
+            </div>
+            <div class="flex items-start gap-4">
+                <div class="p-3 glass rounded-lg gold-text">🧠</div>
+                <div>
+                    <h3 class="font-bold">Inteligência de Dados</h3>
+                    <p class="text-sm opacity-80">Decisões baseadas em dados extraídos, não em achismo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 px-6 text-center">
+        <h2 class="text-2xl font-bold mb-8">Resultados que Falam</h2>
+        <div class="grid grid-cols-2 gap-4">
+            <div class="glass p-4 rounded-xl">
+                <p class="text-2xl font-bold gold-text">280%</p>
+                <p class="text-[10px] uppercase">Aumento de Conversão</p>
+            </div>
+            <div class="glass p-4 rounded-xl">
+                <p class="text-2xl font-bold gold-text">62%</p>
+                <p class="text-[10px] uppercase">Redução de Custo</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-6">
+        <div class="bg-black/20 p-8 rounded-3xl border-2 border-[#D4AF37] text-center">
+            <h2 class="text-xl font-bold mb-2">Vagas Limitadas</h2>
+            <p class="text-4xl font-bold gold-text mb-2">03</p>
+            <p class="text-sm mb-6">vagas para novos parceiros este mês.</p>
+            <a href="https://wa.me/SEUNUMERO" class="btn-gold block w-full py-4 rounded-xl font-bold">Garantir Minha Vaga</a>
+        </div>
+    </section>
+
+    <footer class="p-8 text-center text-[10px] opacity-50">
+        <p>© 2026 MFRGS INOVAÇÕES - Missão 5: Fábrica de Gratidão</p>
+    </footer>
+
+</body>
+</html>
